@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
-		ED3325171190F32A00D73D86 /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3325161190F32A00D73D86 /* QtCore.framework */; };
 		ED3325461190F4D500D73D86 /* Qt4DataFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */; };
+		ED5A0A51119B6A94007D3C83 /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A0A50119B6A94007D3C83 /* QtCore.framework */; };
+		ED5A0A52119B6A9C007D3C83 /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5A0A50119B6A94007D3C83 /* QtCore.framework */; };
 		ED95FCB21190F870007F4D32 /* CustomDataViews.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED95FCB11190F870007F4D32 /* CustomDataViews.plist */; };
-		EDFA3712119B0DFF006D562C /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3325161190F32A00D73D86 /* QtCore.framework */; };
 		EDFA371E119B0E25006D562C /* Qt4DataFormatterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* Qt4DataFormatter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Qt4DataFormatter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED3325161190F32A00D73D86 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = Library/Frameworks/QtCore.framework; sourceTree = SDKROOT; };
 		ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Qt4DataFormatter.cpp; sourceTree = "<group>"; };
+		ED5A0A50119B6A94007D3C83 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = "/usr/local/Trolltech/Qt-4.7.0/lib/QtCore.framework"; sourceTree = "<absolute>"; };
 		ED95FCB11190F870007F4D32 /* CustomDataViews.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CustomDataViews.plist; sourceTree = "<group>"; };
 		EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Qt4DataFormatterTest.cpp; sourceTree = "<group>"; };
 		EDFA370C119B0DE8006D562C /* Qt4DataFormatterTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Qt4DataFormatterTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3325171190F32A00D73D86 /* QtCore.framework in Frameworks */,
+				ED5A0A51119B6A94007D3C83 /* QtCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFA3712119B0DFF006D562C /* QtCore.framework in Frameworks */,
+				ED5A0A52119B6A9C007D3C83 /* QtCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 				08FB77AFFE84173DC02AAC07 /* Source */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				19C28FB6FE9D52B211CA2CBB /* Products */,
-				ED3325161190F32A00D73D86 /* QtCore.framework */,
+				ED5A0A50119B6A94007D3C83 /* QtCore.framework */,
 			);
 			name = Qt4DataFormatter;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "Qt4DataFormatter" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* Qt4DataFormatter */;
 			projectDirPath = "";
@@ -206,7 +206,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/usr/local/Trolltech/Qt-4.7.0/lib\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -222,7 +227,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/usr/local/Trolltech/Qt-4.7.0/lib\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
@@ -234,7 +244,7 @@
 		1DEB911F08733D790010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = "${DEVELOPER_DIR}";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -251,7 +261,7 @@
 		1DEB912008733D790010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEPLOYMENT_LOCATION = NO;
 				DSTROOT = "${DEVELOPER_DIR}";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -268,10 +278,16 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/usr/local/Trolltech/Qt-4.7.0/lib\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/bin;
 				PREBINDING = NO;
 				PRODUCT_NAME = Qt4DataFormatterTest;
@@ -284,8 +300,13 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/usr/local/Trolltech/Qt-4.7.0/lib\"",
+				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/bin;
 				PREBINDING = NO;
 				PRODUCT_NAME = Qt4DataFormatterTest;

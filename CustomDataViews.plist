@@ -2,12 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>QFile</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQFile(&amp;$VAR, $ID)}:s</string>
+	</dict>
+	<key>QFile *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQFile($VAR, $ID)}:s</string>
+	</dict>
+	<key>QAbstractItemModel</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQAbstractItemModel(&amp;$VAR, $ID)}:s</string>
+	</dict>
+	<key>QAbstractItemModel *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQAbstractItemModel($VAR, $ID)}:s</string>
+	</dict>
 	<key>File Version</key>
 	<string>1</string>
+	<key>QVariant</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQVariant(&amp;$VAR, $ID)}:s</string>
+	</dict>
+	<key>QVariant *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQVariant($VAR, $ID)}:s</string>
+	</dict>
+	<key>QModelIndex</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQModelIndex(&amp;$VAR, (int) $ID)}:s</string>
+	</dict>
+	<key>QModelIndex *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQModelIndex($VAR, $ID)}:s</string>
+	</dict>
 	<key>QString</key>
 	<dict>
 		<key>SummaryString</key>
-		<string>{(char *)printQString(&amp;$VAR, $ID)}:s</string>
+		<string>{(char *)printQString(&amp;$VAR, (int) $ID)}:s</string>
+	</dict>
+	<key>QString *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQString($VAR, (int) $ID)}:s</string>
 	</dict>
 </dict>
 </plist>

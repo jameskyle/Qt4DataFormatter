@@ -10,17 +10,81 @@
 #include <string.h>
 #include <stdlib.h>
 #include <QtCore/QString>
-
+#include <QtCore/QModelIndex>
+#include <QtCore/QVariant>
+#include <QtCore/QFile>
 #include <string>
+#include <iostream>
+#include <QtCore/QAbstractItemModel>
 
+// #define _DEBUG_
 /* definition of the plugin function list is required here */
 _pbxgdb_plugin_function_list *_pbxgdb_plugin_functions = NULL;
 
-const char* printQString(QString *data, int ID) {
+char* stringToFromatBuff(std::string message, int ID)
+{
+  int bufLen = message.size() + 1;
+  char *formatBuff;
+  formatBuff = (char *)(_pbxgdb_plugin_functions->allocate(ID, bufLen));
+  strncpy(formatBuff, message.data(), bufLen);
+  formatBuff[bufLen - 1] = '\0';
+  
+  // some debug output
+#ifdef _DEBUG_
+  std::cout << message << std::endl;
+#endif
+  return formatBuff;
+}
+
+char* printQString(QString *data, int ID) 
+{
   std::string result;
-	
+
   if (NULL != _pbxgdb_plugin_functions ) {
     result = _pbxgdb_plugin_functions->message(ID, "%s", qPrintable(*data));
+  } else
+  {
+    result = "Could not map object to QString";
   }
-  return result.c_str();    
+  
+  return stringToFromatBuff(result, ID);   
+}
+
+char* printQModelIndex(QModelIndex *index, int ID) 
+{
+  QString *result = new QString;
+
+  if (NULL != _pbxgdb_plugin_functions)
+  {
+    *result = _pbxgdb_plugin_functions->message(ID, "row: %i, col: %i", 
+                                               index->row(), index->column());
+  } else
+  {
+    *result = "Could not map object to QModelIndex";
+  }
+  
+  return printQString(result, ID);
+}
+
+char* printQVariant(QVariant *variant, int ID)
+{
+  QString *st = new QString(variant->toString());
+  
+  return printQString(st, ID);
+}
+
+char* printQAbstractItemModel(QAbstractItemModel *model, int ID)
+{
+  QString *repr = new QString("%1: rows %2, cols %3");
+  QString cl = model->metaObject()->className();
+  *repr = repr->arg(cl).arg(model->rowCount()).arg(model->columnCount());
+  
+  return printQString(repr, ID);
+}
+
+char* printQFile(QFile *file, int ID)
+{
+  QString *f = new QString(file->fileName());
+  
+  return printQString(f, ID);
 }
