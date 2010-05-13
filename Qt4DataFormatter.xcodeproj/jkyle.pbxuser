@@ -105,6 +105,10 @@
 			ED7B1C73119CB48800DB8CC3 /* PBXTextBookmark */ = ED7B1C73119CB48800DB8CC3 /* PBXTextBookmark */;
 			ED7B1C88119CB4DA00DB8CC3 /* PlistBookmark */ = ED7B1C88119CB4DA00DB8CC3 /* PlistBookmark */;
 			ED7B1C89119CB4DA00DB8CC3 /* PBXTextBookmark */ = ED7B1C89119CB4DA00DB8CC3 /* PBXTextBookmark */;
+			ED7B1C8D119CBB5400DB8CC3 /* PlistBookmark */ = ED7B1C8D119CBB5400DB8CC3 /* PlistBookmark */;
+			ED7B1C8E119CBB5400DB8CC3 /* PBXTextBookmark */ = ED7B1C8E119CBB5400DB8CC3 /* PBXTextBookmark */;
+			ED7B1C8F119CBB5400DB8CC3 /* PBXTextBookmark */ = ED7B1C8F119CBB5400DB8CC3 /* PBXTextBookmark */;
+			ED7B1C90119CBB5400DB8CC3 /* PBXTextBookmark */ = ED7B1C90119CBB5400DB8CC3 /* PBXTextBookmark */;
 			ED9433E4119CB10F000FDEB1 = ED9433E4119CB10F000FDEB1 /* PlistBookmark */;
 			ED9433E5119CB10F000FDEB1 = ED9433E5119CB10F000FDEB1 /* PBXTextBookmark */;
 			ED9433E6119CB10F000FDEB1 = ED9433E6119CB10F000FDEB1 /* PBXTextBookmark */;
@@ -324,6 +328,44 @@
 		vrLen = 1908;
 		vrLoc = 0;
 	};
+	ED7B1C8D119CBB5400DB8CC3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ED95FCB11190F870007F4D32 /* CustomDataViews.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Volumes/Data/Projects/Qt4DataFormatter/CustomDataViews.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ED7B1C8E119CBB5400DB8CC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 66";
+		rLen = 0;
+		rLoc = 1669;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 0;
+	};
+	ED7B1C8F119CBB5400DB8CC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		rLen = 0;
+		rLoc = 31;
+		rType = 1;
+	};
+	ED7B1C90119CBB5400DB8CC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		name = "Qt4DataFormatterTest.cpp: 32";
+		rLen = 0;
+		rLoc = 746;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
 	ED82741D119B173200EADAC9 /* format_QString */ = {
 		isa = PBXSymbolicBreakpoint;
 		actions = (
@@ -335,7 +377,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = "";
-		modificationTime = 295482571.755545;
+		modificationTime = 295484235.855588;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 		symbolName = format_QString;
@@ -354,7 +396,7 @@
 		ignoreCount = 0;
 		lineNumber = 32;
 		location = Qt4DataFormatterTest;
-		modificationTime = 295482572.511016;
+		modificationTime = 295484236.613837;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -424,15 +466,15 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 13;
-		modificationTime = 295482571.755139;
+		modificationTime = 295484235.855006;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
 	EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {713, 816}}";
-			sepNavSelRange = "{369, 0}";
-			sepNavVisRange = "{0, 535}";
+			sepNavIntBoundsRect = "{{0, 0}, {713, 539}}";
+			sepNavSelRange = "{746, 0}";
+			sepNavVisRange = "{0, 761}";
 		};
 	};
 	EDFA370B119B0DE8006D562C /* Qt4DataFormatterTest */ = {

@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -330,7 +328,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED7B1C88119CB4DA00DB8CC3</string>
+												<string>ED7B1C8D119CBB5400DB8CC3</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
@@ -365,7 +363,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Qt4DataFormatter.cpp</string>
+										<string>Qt4DataFormatterTest.cpp</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -373,19 +371,19 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Qt4DataFormatter.cpp</string>
+												<string>Qt4DataFormatterTest.cpp</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED7B1C89119CB4DA00DB8CC3</string>
+												<string>ED7B1C90119CBB5400DB8CC3</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
 													<string>ED5A0C6C119B6F24007D3C83</string>
 													<string>ED5A0C6D119B6F24007D3C83</string>
 													<string>ED5A0C6E119B6F24007D3C83</string>
-													<string>ED7B1C72119CB48800DB8CC3</string>
-													<string>ED9433E5119CB10F000FDEB1</string>
+													<string>ED7B1C8E119CBB5400DB8CC3</string>
+													<string>ED7B1C8F119CBB5400DB8CC3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -591,7 +589,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ED7B1C8A119CB4DA00DB8CC3</string>
+		<string>ED7B1C91119CBB5400DB8CC3</string>
 		<string>ED7B1C80119CB48800DB8CC3</string>
 		<string>ED7B1C81119CB48800DB8CC3</string>
 		<string>1C78EAAD065D492600B07095</string>

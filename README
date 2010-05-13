@@ -1,0 +1,26 @@
+This xcode bundle provides SummaryString formatters for various Qt4 objects.
+
+Currently contains:
+    - QString
+    - QVariant
+    - QModelIndex
+    - QFile
+
+Building:
+
+- Open the *.xcodeproj file in Xcode.
+- Select the Release target (unless you want to debug/contribute!)
+- Click Build (or CMD+B)
+
+Place the resulting bundle ($project/build/Release/Qt4DataFormatter.bundle) in
+
+     ~/Library/Application\ Support/Developer/Shared/Xcode/CustomDataViews
+
+If you wish to contribute, build a debug target. I also suggest creating a
+symlink to the build/Debug/Qt4DataFormatter.bundle directory in your
+~/Library/Application\ Support/Developer/Shared/Xcode/CustomDataViews. By
+doing so, your changes are immediately reflected in the debugger on each build.
+
+Cheers,
+
+-james
