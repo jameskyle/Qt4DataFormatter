@@ -313,6 +313,8 @@
 							<key>Dock</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -330,7 +332,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED6FD03511A1B89E00795F62</string>
+												<string>ED6FD03E11A1B99900795F62</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
@@ -360,8 +362,6 @@
 									<string>585pt</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -379,7 +379,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED6FD03811A1B89E00795F62</string>
+												<string>ED6FD03F11A1B99900795F62</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
@@ -598,9 +598,9 @@
 		<string>ED6FCF8111A1A7FD00795F62</string>
 		<string>ED6FCF8211A1A7FD00795F62</string>
 		<string>ED3325111190F27C00D73D86</string>
-		<string>/Volumes/Data/Projects/Qt4DataFormatter/Qt4DataFormatter.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Volumes/Data/Projects/Qt4DataFormatter/Qt4DataFormatter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>172 245 1570 933 0 0 1920 1178 </string>

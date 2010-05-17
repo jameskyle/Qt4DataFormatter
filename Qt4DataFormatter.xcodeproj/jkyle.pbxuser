@@ -123,6 +123,8 @@
 			ED6FD03611A1B89E00795F62 /* PBXTextBookmark */ = ED6FD03611A1B89E00795F62 /* PBXTextBookmark */;
 			ED6FD03711A1B89E00795F62 /* PBXTextBookmark */ = ED6FD03711A1B89E00795F62 /* PBXTextBookmark */;
 			ED6FD03811A1B89E00795F62 /* PBXTextBookmark */ = ED6FD03811A1B89E00795F62 /* PBXTextBookmark */;
+			ED6FD03E11A1B99900795F62 /* PBXTextBookmark */ = ED6FD03E11A1B99900795F62 /* PBXTextBookmark */;
+			ED6FD03F11A1B99900795F62 /* PBXTextBookmark */ = ED6FD03F11A1B99900795F62 /* PBXTextBookmark */;
 			ED91B50B119DA07200E86382 = ED91B50B119DA07200E86382 /* PBXTextBookmark */;
 			ED91B50C119DA07200E86382 = ED91B50C119DA07200E86382 /* PlistBookmark */;
 			ED91B50D119DA07200E86382 = ED91B50D119DA07200E86382 /* PBXTextBookmark */;
@@ -197,10 +199,10 @@
 	};
 	ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{605, 59}\";\n            s = 0;\n        },\n                {\n            r = \"{785, 315}\";\n            s = 0;\n        },\n                {\n            r = \"{1147, 256}\";\n            s = 0;\n        },\n                {\n            r = \"{1660, 339}\";\n            s = 0;\n        },\n                {\n            r = \"{2050, 85}\";\n            s = 0;\n        },\n                {\n            r = \"{2204, 215}\";\n            s = 0;\n        },\n                {\n            r = \"{2461, 80}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2660}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {880, 702}}";
-			sepNavSelRange = "{590, 0}";
-			sepNavVisRange = "{262, 916}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{605, 59}\";\n            s = 0;\n        },\n                {\n            r = \"{785, 315}\";\n            s = 0;\n        },\n                {\n            r = \"{1147, 256}\";\n            s = 0;\n        },\n                {\n            r = \"{1660, 339}\";\n            s = 0;\n        },\n                {\n            r = \"{2050, 85}\";\n            s = 0;\n        },\n                {\n            r = \"{2204, 215}\";\n            s = 0;\n        },\n                {\n            r = \"{2461, 80}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2716}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {880, 715}}";
+			sepNavSelRange = "{1178, 0}";
+			sepNavVisRange = "{344, 890}";
 			sepNavWindowFrame = "{{15, 81}, {737, 1097}}";
 		};
 	};
@@ -512,7 +514,7 @@
 		isa = PBXTextBookmark;
 		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775863;
 		rType = 0;
 	};
 	ED6FD03511A1B89E00795F62 /* PBXTextBookmark */ = {
@@ -546,6 +548,26 @@
 		vrLoc = 94;
 	};
 	ED6FD03811A1B89E00795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		name = "Qt4DataFormatterTest.cpp: 51";
+		rLen = 0;
+		rLoc = 1221;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 94;
+	};
+	ED6FD03E11A1B99900795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 108";
+		rLen = 0;
+		rLoc = 2659;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 483;
+	};
+	ED6FD03F11A1B99900795F62 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
 		name = "Qt4DataFormatterTest.cpp: 51";
@@ -792,7 +814,7 @@
 		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
 		name = "Qt4DataFormatter.cpp: 98";
 		rLen = 0;
-		rLoc = 2622;
+		rLoc = 2678;
 		rType = 0;
 		vrLen = 2409;
 		vrLoc = 0;

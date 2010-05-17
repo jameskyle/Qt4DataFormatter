@@ -105,7 +105,8 @@ char* printQFile(QFile *file, int ID)
 
 char* printQDomElement(QDomElement *e, int ID)
 {
-  QString out = e->tagName();
+  QString out = QString("tagName: %1, text: %2").arg(e->tagName())
+  .arg(e->text());
   
   return printQString(&out, ID);
 }
