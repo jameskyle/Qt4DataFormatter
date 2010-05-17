@@ -135,6 +135,8 @@
 			ED6FD06011A1BB5900795F62 /* PlistBookmark */ = ED6FD06011A1BB5900795F62 /* PlistBookmark */;
 			ED6FD06111A1BB5900795F62 /* PBXTextBookmark */ = ED6FD06111A1BB5900795F62 /* PBXTextBookmark */;
 			ED6FD06211A1BB5900795F62 /* PBXTextBookmark */ = ED6FD06211A1BB5900795F62 /* PBXTextBookmark */;
+			ED6FD06911A1BB9800795F62 /* PlistBookmark */ = ED6FD06911A1BB9800795F62 /* PlistBookmark */;
+			ED6FD06A11A1BB9800795F62 /* PBXTextBookmark */ = ED6FD06A11A1BB9800795F62 /* PBXTextBookmark */;
 			ED91B50B119DA07200E86382 = ED91B50B119DA07200E86382 /* PBXTextBookmark */;
 			ED91B50C119DA07200E86382 = ED91B50C119DA07200E86382 /* PlistBookmark */;
 			ED91B50D119DA07200E86382 = ED91B50D119DA07200E86382 /* PBXTextBookmark */;
@@ -692,6 +694,29 @@
 		vrLen = 2253;
 		vrLoc = 463;
 	};
+	ED6FD06911A1BB9800795F62 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ED95FCB11190F870007F4D32 /* CustomDataViews.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"QDomElement *",
+			SummaryString,
+		);
+		name = /Volumes/Data/Projects/Qt4DataFormatter/CustomDataViews.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ED6FD06A11A1BB9800795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 60";
+		rLen = 0;
+		rLoc = 1451;
+		rType = 0;
+		vrLen = 2253;
+		vrLoc = 463;
+	};
 	ED82741D119B173200EADAC9 /* format_QString */ = {
 		isa = PBXSymbolicBreakpoint;
 		actions = (
@@ -703,7 +728,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = "";
-		modificationTime = 295811927.536014;
+		modificationTime = 295811991.300468;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 		symbolName = format_QString;
@@ -721,7 +746,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 52;
-		modificationTime = 295811927.535505;
+		modificationTime = 295811991.299832;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
@@ -1023,15 +1048,15 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 13;
-		modificationTime = 295811927.535471;
+		modificationTime = 295811991.299733;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
 	EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {604, 702}}";
-			sepNavSelRange = "{492, 0}";
-			sepNavVisRange = "{94, 1128}";
+			sepNavIntBoundsRect = "{{0, 0}, {1113, 715}}";
+			sepNavSelRange = "{1142, 0}";
+			sepNavVisRange = "{601, 636}";
 		};
 	};
 	EDFA370B119B0DE8006D562C /* Qt4DataFormatterTest */ = {

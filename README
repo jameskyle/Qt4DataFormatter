@@ -5,6 +5,8 @@ Currently contains:
     - QVariant
     - QModelIndex
     - QFile
+    - QDomNode
+    - QDomElement
 
 Building:
 
