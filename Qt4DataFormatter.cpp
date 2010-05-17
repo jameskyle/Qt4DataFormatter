@@ -7,15 +7,21 @@
  *
  */
 #include "/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Headers/DataFormatterPlugin.h"
-#include <string.h>
-#include <stdlib.h>
 #include <QtCore/QString>
 #include <QtCore/QModelIndex>
+#include <QtXml/QDomNode>
 #include <QtCore/QVariant>
 #include <QtCore/QFile>
+#include <QtCore/QAbstractItemModel>
+#include <QtCore/QList>
+
+#include <string.h>
+#include <stdlib.h>
 #include <string>
 #include <iostream>
-#include <QtCore/QAbstractItemModel>
+// XML stuff
+
+#include <QtXml/QDomElement>
 
 // #define _DEBUG_
 /* definition of the plugin function list is required here */
@@ -48,6 +54,14 @@ char* printQString(QString *data, int ID)
   }
   
   return stringToFromatBuff(result, ID);   
+}
+
+char* printQDomNode(QDomNode *data, int ID)
+{
+  QString msg = QString("tagName: %1, text: %2")
+  .arg(data->toElement().tagName()).arg(data->toElement().text());
+  
+  return printQString(&msg, ID);
 }
 
 char* printQModelIndex(QModelIndex *index, int ID) 
@@ -87,4 +101,11 @@ char* printQFile(QFile *file, int ID)
   QString *f = new QString(file->fileName());
   
   return printQString(f, ID);
+}
+
+char* printQDomElement(QDomElement *e, int ID)
+{
+  QString out = e->tagName();
+  
+  return printQString(&out, ID);
 }

@@ -44,6 +44,16 @@
 		<key>SummaryString</key>
 		<string>{(char *)printQModelIndex($VAR, $ID)}:s</string>
 	</dict>
+	<key>QDomNode</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQDomNode(&amp;$VAR, (int) $ID)}:s</string>
+	</dict>
+	<key>QDomNode *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQDomNode($VAR, $ID)}:s</string>
+	</dict>
 	<key>QString</key>
 	<dict>
 		<key>SummaryString</key>
