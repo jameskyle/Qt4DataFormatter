@@ -125,6 +125,16 @@
 			ED6FD03811A1B89E00795F62 /* PBXTextBookmark */ = ED6FD03811A1B89E00795F62 /* PBXTextBookmark */;
 			ED6FD03E11A1B99900795F62 /* PBXTextBookmark */ = ED6FD03E11A1B99900795F62 /* PBXTextBookmark */;
 			ED6FD03F11A1B99900795F62 /* PBXTextBookmark */ = ED6FD03F11A1B99900795F62 /* PBXTextBookmark */;
+			ED6FD04511A1BA3000795F62 /* PBXTextBookmark */ = ED6FD04511A1BA3000795F62 /* PBXTextBookmark */;
+			ED6FD04611A1BA3000795F62 /* PBXTextBookmark */ = ED6FD04611A1BA3000795F62 /* PBXTextBookmark */;
+			ED6FD05011A1BA8F00795F62 /* PBXTextBookmark */ = ED6FD05011A1BA8F00795F62 /* PBXTextBookmark */;
+			ED6FD05111A1BA8F00795F62 /* PBXTextBookmark */ = ED6FD05111A1BA8F00795F62 /* PBXTextBookmark */;
+			ED6FD05D11A1BB5900795F62 /* PBXTextBookmark */ = ED6FD05D11A1BB5900795F62 /* PBXTextBookmark */;
+			ED6FD05E11A1BB5900795F62 /* PlistBookmark */ = ED6FD05E11A1BB5900795F62 /* PlistBookmark */;
+			ED6FD05F11A1BB5900795F62 /* PlistBookmark */ = ED6FD05F11A1BB5900795F62 /* PlistBookmark */;
+			ED6FD06011A1BB5900795F62 /* PlistBookmark */ = ED6FD06011A1BB5900795F62 /* PlistBookmark */;
+			ED6FD06111A1BB5900795F62 /* PBXTextBookmark */ = ED6FD06111A1BB5900795F62 /* PBXTextBookmark */;
+			ED6FD06211A1BB5900795F62 /* PBXTextBookmark */ = ED6FD06211A1BB5900795F62 /* PBXTextBookmark */;
 			ED91B50B119DA07200E86382 = ED91B50B119DA07200E86382 /* PBXTextBookmark */;
 			ED91B50C119DA07200E86382 = ED91B50C119DA07200E86382 /* PlistBookmark */;
 			ED91B50D119DA07200E86382 = ED91B50D119DA07200E86382 /* PBXTextBookmark */;
@@ -201,8 +211,8 @@
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{605, 59}\";\n            s = 0;\n        },\n                {\n            r = \"{785, 315}\";\n            s = 0;\n        },\n                {\n            r = \"{1147, 256}\";\n            s = 0;\n        },\n                {\n            r = \"{1660, 339}\";\n            s = 0;\n        },\n                {\n            r = \"{2050, 85}\";\n            s = 0;\n        },\n                {\n            r = \"{2204, 215}\";\n            s = 0;\n        },\n                {\n            r = \"{2461, 80}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2716}\";\n    s = 0;\n}";
 			sepNavIntBoundsRect = "{{0, 0}, {880, 715}}";
-			sepNavSelRange = "{1178, 0}";
-			sepNavVisRange = "{344, 890}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{324, 911}";
 			sepNavWindowFrame = "{{15, 81}, {737, 1097}}";
 		};
 	};
@@ -577,6 +587,111 @@
 		vrLen = 1128;
 		vrLoc = 94;
 	};
+	ED6FD04511A1BA3000795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 108";
+		rLen = 0;
+		rLoc = 2659;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 483;
+	};
+	ED6FD04611A1BA3000795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		name = "Qt4DataFormatterTest.cpp: 51";
+		rLen = 0;
+		rLoc = 1221;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 94;
+	};
+	ED6FD05011A1BA8F00795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 108";
+		rLen = 0;
+		rLoc = 2659;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 483;
+	};
+	ED6FD05111A1BA8F00795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		name = "Qt4DataFormatterTest.cpp: 51";
+		rLen = 0;
+		rLoc = 1221;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 94;
+	};
+	ED6FD05D11A1BB5900795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 108";
+		rLen = 0;
+		rLoc = 2659;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 483;
+	};
+	ED6FD05E11A1BB5900795F62 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D576317048677EA00EA77CD /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Volumes/Data/Projects/Qt4DataFormatter/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ED6FD05F11A1BB5900795F62 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ED95FCB11190F870007F4D32 /* CustomDataViews.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Volumes/Data/Projects/Qt4DataFormatter/CustomDataViews.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ED6FD06011A1BB5900795F62 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ED95FCB11190F870007F4D32 /* CustomDataViews.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"QDomElement *",
+			SummaryString,
+		);
+		name = /Volumes/Data/Projects/Qt4DataFormatter/CustomDataViews.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	ED6FD06111A1BB5900795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
+		name = "Qt4DataFormatterTest.cpp: 26";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 94;
+	};
+	ED6FD06211A1BB5900795F62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ED3325451190F4D500D73D86 /* Qt4DataFormatter.cpp */;
+		name = "Qt4DataFormatter.cpp: 60";
+		rLen = 0;
+		rLoc = 1451;
+		rType = 0;
+		vrLen = 2253;
+		vrLoc = 463;
+	};
 	ED82741D119B173200EADAC9 /* format_QString */ = {
 		isa = PBXSymbolicBreakpoint;
 		actions = (
@@ -588,7 +703,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = "";
-		modificationTime = 295811221.820383;
+		modificationTime = 295811927.536014;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 		symbolName = format_QString;
@@ -603,11 +718,10 @@
 		delayBeforeContinue = 0;
 		fileReference = EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */;
 		functionName = "main()";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 52;
-		location = Qt4DataFormatterTest;
-		modificationTime = 295811222.581471;
+		modificationTime = 295811927.535505;
 		originalNumberOfMultipleMatches = 1;
 		state = 0;
 	};
@@ -909,14 +1023,14 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 13;
-		modificationTime = 295811221.819544;
+		modificationTime = 295811927.535471;
 		originalNumberOfMultipleMatches = 1;
-		state = 0;
+		state = 1;
 	};
 	EDFA3519119B0B8E006D562C /* Qt4DataFormatterTest.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {604, 715}}";
-			sepNavSelRange = "{1221, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {604, 702}}";
+			sepNavSelRange = "{492, 0}";
 			sepNavVisRange = "{94, 1128}";
 		};
 	};

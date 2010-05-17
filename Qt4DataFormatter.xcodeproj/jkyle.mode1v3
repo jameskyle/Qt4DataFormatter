@@ -274,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>4</integer>
+									<integer>8</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,14 +313,12 @@
 							<key>Dock</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Qt4DataFormatter.cpp</string>
+										<string>CustomDataViews.plist</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -328,19 +326,20 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Qt4DataFormatter.cpp</string>
+												<string>CustomDataViews.plist</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED6FD03E11A1B99900795F62</string>
+												<string>ED6FD06011A1BB5900795F62</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
 													<string>ED5A0C6C119B6F24007D3C83</string>
 													<string>ED5A0C6D119B6F24007D3C83</string>
 													<string>ED5A0CAD119B76E8007D3C83</string>
-													<string>ED6FD03311A1B89E00795F62</string>
-													<string>ED6FD03411A1B89E00795F62</string>
+													<string>ED6FD05D11A1BB5900795F62</string>
+													<string>ED6FD05E11A1BB5900795F62</string>
+													<string>ED6FD05F11A1BB5900795F62</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -367,7 +366,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Qt4DataFormatterTest.cpp</string>
+										<string>Qt4DataFormatter.cpp</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -375,11 +374,11 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Qt4DataFormatterTest.cpp</string>
+												<string>Qt4DataFormatter.cpp</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>ED6FD03F11A1B99900795F62</string>
+												<string>ED6FD06211A1BB5900795F62</string>
 												<key>history</key>
 												<array>
 													<string>ED3325391190F49400D73D86</string>
@@ -387,8 +386,8 @@
 													<string>ED5A0C6E119B6F24007D3C83</string>
 													<string>ED91B50B119DA07200E86382</string>
 													<string>ED91B50C119DA07200E86382</string>
+													<string>ED6FD06111A1BB5900795F62</string>
 													<string>ED6FD03611A1B89E00795F62</string>
-													<string>ED6FD03711A1B89E00795F62</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -594,13 +593,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ED6FD03911A1B89E00795F62</string>
 		<string>ED6FCF8111A1A7FD00795F62</string>
 		<string>ED6FCF8211A1A7FD00795F62</string>
 		<string>ED3325111190F27C00D73D86</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Volumes/Data/Projects/Qt4DataFormatter/Qt4DataFormatter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>172 245 1570 933 0 0 1920 1178 </string>

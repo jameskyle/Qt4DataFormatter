@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>File Version</key>
+	<string>1</string>
 	<key>QFile</key>
 	<dict>
 		<key>SummaryString</key>
@@ -22,8 +24,6 @@
 		<key>SummaryString</key>
 		<string>{(char *)printQAbstractItemModel($VAR, $ID)}:s</string>
 	</dict>
-	<key>File Version</key>
-	<string>1</string>
 	<key>QVariant</key>
 	<dict>
 		<key>SummaryString</key>
@@ -53,6 +53,16 @@
 	<dict>
 		<key>SummaryString</key>
 		<string>{(char *)printQDomNode($VAR, $ID)}:s</string>
+	</dict>
+	<key>QDomElement</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQDomElement(&amp;$VAR, (int) $ID)}:s</string>
+	</dict>
+	<key>QDomElement *</key>
+	<dict>
+		<key>SummaryString</key>
+		<string>{(char *)printQDomElement($VAR, $ID)}:s</string>
 	</dict>
 	<key>QString</key>
 	<dict>
